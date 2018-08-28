@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="7" time="1.532"><testcase classname="test_submit" file="test_submit.py" line="12" name="test_part_1" time="0.002978801727294922"></testcase><testcase classname="test_submit" file="test_submit.py" line="16" name="test_part_2" time="0.004311084747314453"><system-out>648
+</system-out></testcase><testcase classname="test_submit" file="test_submit.py" line="20" name="test_part_3" time="0.0018868446350097656"></testcase><testcase classname="test_submit" file="test_submit.py" line="45" name="test_part_4" time="0.029065608978271484"></testcase><testcase classname="test_submit" file="test_submit.py" line="60" name="test_part_5" time="0.08479738235473633"><failure message="assert False
+ +  where False = &lt;bound method Series.all of 0     True\n1    False\n2    False\n3     True\n4     True\n5    False\n6     True\n7    False\n8    False\n9    False\ndtype: bool&gt;()
+ +    where &lt;bound method Series.all of 0     True\n1    False\n2    False\n3     True\n4     True\n5    False\n6     True\n7    False\n8    False\n9    False\ndtype: bool&gt; = 0            ... dtype: object == 0             ...\ndtype: object
+      Full diff:
+      0                Barry Richardson
+      - 1                 Essam El Hadary
+      - 2                     Óscar Pérez
+      ? ^
+      + 1                     Óscar Pérez
+      ? ^
+      + 2                 Essam El Hadary
+      3                     Danny Coyne
+      4                    Jimmy Walker
+      - 5                       Chris Day
+      + 5    Joaquim Manuel Sampaio Silva
+      6                   Kjetil Wæhler
+      - 7    Joaquim Manuel Sampaio Silva
+      + 7                       Chris Day
+      + 8                   Marco Storari
+      - 8                  Benjamin Nivet
+      ? ^
+      + 9                  Benjamin Nivet
+      ? ^
+      + dtype: object
+      - 9                   Máyer Candelo
+      - Name: full_name, dtype: object.all">E   assert False
+     +  where False = &lt;bound method Series.all of 0     True\n1    False\n2    False\n3     True\n4     True\n5    False\n6     True\n7    False\n8    False\n9    False\ndtype: bool&gt;()
+     +    where &lt;bound method Series.all of 0     True\n1    False\n2    False\n3     True\n4     True\n5    False\n6     True\n7    False\n8    False\n9    False\ndtype: bool&gt; = 0            ... dtype: object == 0             ...\ndtype: object
+          Full diff:
+          0                Barry Richardson
+          - 1                 Essam El Hadary
+          - 2                     Óscar Pérez
+          ? ^
+          + 1                     Óscar Pérez
+          ? ^
+          + 2                 Essam El Hadary
+          3                     Danny Coyne
+          4                    Jimmy Walker
+          - 5                       Chris Day
+          + 5    Joaquim Manuel Sampaio Silva
+          6                   Kjetil Wæhler
+          - 7    Joaquim Manuel Sampaio Silva
+          + 7                       Chris Day
+          + 8                   Marco Storari
+          - 8                  Benjamin Nivet
+          ? ^
+          + 9                  Benjamin Nivet
+          ? ^
+          + dtype: object
+          - 9                   Máyer Candelo
+          - Name: full_name, dtype: object.all</failure><system-out>17990                Barry Richardson
+5280                  Essam El Hadary
+4813                      Óscar Pérez
+16756                     Danny Coyne
+16879                    Jimmy Walker
+16170                       Chris Day
+7734                    Kjetil Wæhler
+6639     Joaquim Manuel Sampaio Silva
+2199                   Benjamin Nivet
+3272                    Máyer Candelo
+Name: full_name, dtype: object
+</system-out></testcase><testcase classname="test_submit" file="test_submit.py" line="75" name="test_part_6" time="0.0033295154571533203"></testcase><testcase classname="test_submit" file="test_submit.py" line="111" name="test_part_7" time="0.0036966800689697266"></testcase></testsuite>

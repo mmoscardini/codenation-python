@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.5, pytest-3.6.1, py-1.5.3, pluggy-0.6.0 -- /home/mmoscardini/miniconda3/bin/python
+cachedir: .pytest_cache
+rootdir: /home/mmoscardini/codenation/pandas-1, inifile:
+collecting ... collected 7 items
+
+test_submit.py::test_part_1 PASSED                                       [ 14%]
+test_submit.py::test_part_2 PASSED                                       [ 28%]
+test_submit.py::test_part_3 PASSED                                       [ 42%]
+test_submit.py::test_part_4 PASSED                                       [ 57%]
+test_submit.py::test_part_5 FAILED                                       [ 71%]
+test_submit.py::test_part_6 PASSED                                       [ 85%]
+test_submit.py::test_part_7 PASSED                                       [100%]
+
+=================================== FAILURES ===================================
+/home/mmoscardini/codenation/pandas-1/test_submit.py:62: assert False
+----- generated xml file: /home/mmoscardini/codenation/pandas-1/output.xml -----
+====================== 1 failed, 6 passed in 1.53 seconds ======================
